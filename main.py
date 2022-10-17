@@ -19,8 +19,6 @@ doxx = str(input(' [?] do you already have an account? [y/n]: '))
 
 if doxx == 'n': webbrowser.open('https://doxbin.com/register')
 
-if doxx == 'y':
-
 reason = input("\033[31m[!]\033[35m reason for dox: ")
 
 full_name = input("\033[31m[!]\033[35m Full name: ")
